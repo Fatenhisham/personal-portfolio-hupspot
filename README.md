@@ -45,19 +45,19 @@ https://github.com/Fatenhisham/personal-portfolio-hupspot.git
 ## 📸 Screenshots / Project Images
 
 ### Image 1
-![Image 1](images/Screenshot (303).png)
+![Image 1](images/Screenshot(303).png)
 
 ### Image 2
-![Image 2](images/Screenshot (304).png)
+![Image 2](images/Screenshot(304).png)
 
 ### Image 3
-![Image 3](images/Screenshot (305).png)
+![Image 3](images/Screenshot(305).png)
 
 ### Image 4
-![Image 4](images/Screenshot (306).png)
+![Image 4](images/Screenshot(306).png)
 
 ### Image 5
-![Image 5](images/Screenshot (313).png)
+![Image 5](images/Screenshot(313).png)
 
 
 
