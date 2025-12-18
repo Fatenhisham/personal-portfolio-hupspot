@@ -1,0 +1,74 @@
+[ {
+  "id" : "bf8b93ba-36ea-156c-3120-7a42d3165034",
+  "name" : "profile_image",
+  "label" : "profile_image",
+  "required" : false,
+  "locked" : false,
+  "responsive" : true,
+  "resizable" : true,
+  "show_loading" : false,
+  "type" : "image",
+  "display_width" : null,
+  "default" : {
+    "size_type" : "auto",
+    "src" : "https://147128246.fs1.hubspotusercontent-eu1.net/hubfs/147128246/me.jpeg",
+    "alt" : "me",
+    "loading" : "lazy",
+    "width" : 720,
+    "height" : 847,
+    "max_width" : 720,
+    "max_height" : 847
+  }
+}, {
+  "id" : "cfb6e759-dcb6-2349-c700-4f336468e112",
+  "name" : "my_name",
+  "label" : "my_name",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "Faten Hesham Hussein Ahmed"
+}, {
+  "id" : "9f0549ac-349b-93f5-06d0-a53ce05bcb8a",
+  "name" : "title",
+  "label" : "title",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "Flutter Developer"
+}, {
+  "id" : "b51f5f46-7d54-03a2-6840-1c84bb1fbd4c",
+  "name" : "description",
+  "label" : "description",
+  "required" : false,
+  "locked" : false,
+  "type" : "richtext",
+  "display_width" : null
+}, {
+  "id" : "f6b7b079-287f-dab8-6c49-81bd5f0198b8",
+  "name" : "contact_button_link",
+  "label" : "contact_button_link",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "FILE", "CONTENT", "BLOG", "PAYMENT", "EMAIL_ADDRESS", "PHONE_NUMBER" ],
+  "type" : "url",
+  "display_width" : null,
+  "default" : {
+    "content_id" : null,
+    "href" : "#contact",
+    "type" : "EXTERNAL"
+  }
+}, {
+  "id" : "5b7f7bc3-752f-68bb-579f-554868bd89c8",
+  "name" : "contact_button_text",
+  "label" : "contact_button_text",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "Contact Me"
+} ]

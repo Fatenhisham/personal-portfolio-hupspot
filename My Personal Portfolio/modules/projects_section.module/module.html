@@ -1,0 +1,29 @@
+<section class="projects-section" id="projects">
+  <div class="container">
+    <h2 class="section-title">{{ module.section_title }}</h2>
+
+    <div class="projects-grid">
+      {% for item in module.projects %}
+        <div class="project-card">
+          <img src="{{ item.project_image.src }}"
+               alt="Screenshot of {{ item.project_name }} project"
+               loading="lazy"
+               decoding="async"
+               width="600"
+               height="400">
+
+          <div class="project-content">
+            <h3>{{ item.project_name }}</h3>
+            {{ item.project_description }}
+
+            <a href="{{ item.project_link.href }}"
+               target="_blank"
+               rel="noopener">
+              View Project →
+            </a>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,22 @@
+<header class="hero-section">
+  <div class="hero-container">
+    {% if module.profile_image.src %}
+      <img src="{{ module.profile_image.src }}"
+           alt="Profile image of {{ module.name }}"
+           class="hero-image"
+           loading="eager"
+           decoding="async"
+           width="280"
+           height="280">
+    {% endif %}
+    <div class="hero-content">
+      <h1>{{ module.name }}</h1>
+      <h2>{{ module.title }}</h2>
+      <div class="hero-description">{{ module.description }}</div>
+      <a href="{{ module.contact_button_link.href }}"
+         class="hero-button">
+        {{ module.contact_button_text }}
+      </a>
+    </div>
+  </div>
+</header>

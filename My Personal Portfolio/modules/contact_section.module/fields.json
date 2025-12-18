@@ -1,0 +1,59 @@
+[ {
+  "id" : "607357b2-7657-98b0-a21d-ddf7fefe3802",
+  "name" : "section_title",
+  "label" : "section_title",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "Contact Me"
+}, {
+  "id" : "a4f0bf60-d2bb-c5ea-baf7-20322ca2fd06",
+  "name" : "email",
+  "label" : "email",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "fh1316@fayoum.edu.eg"
+}, {
+  "id" : "8ec1bcc9-c95a-3eba-a9f1-ce2eabfa649a",
+  "name" : "phone",
+  "label" : "phone",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "+20 1094100419"
+}, {
+  "id" : "8f7430c8-5eec-9e60-ec4b-83a8c87cac0d",
+  "name" : "github_link",
+  "label" : "github_link",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "FILE", "CONTENT", "BLOG", "PAYMENT", "EMAIL_ADDRESS", "PHONE_NUMBER" ],
+  "type" : "url",
+  "display_width" : null,
+  "default" : {
+    "content_id" : null,
+    "href" : "https://github.com/Fatenhisham",
+    "type" : "EXTERNAL"
+  }
+}, {
+  "id" : "5744aa9b-1645-d14a-54ff-ade257a4a6d9",
+  "name" : "linkedin_link",
+  "label" : "linkedin_link",
+  "required" : false,
+  "locked" : false,
+  "supported_types" : [ "EXTERNAL", "FILE", "CONTENT", "BLOG", "PAYMENT", "EMAIL_ADDRESS", "PHONE_NUMBER" ],
+  "type" : "url",
+  "display_width" : null,
+  "default" : {
+    "content_id" : null,
+    "href" : "https://www.linkedin.com/in/faten-hesham-hussein-ahmed-99487831b/",
+    "type" : "EXTERNAL"
+  }
+} ]

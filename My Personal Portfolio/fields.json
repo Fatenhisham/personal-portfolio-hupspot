@@ -1,0 +1,22 @@
+[
+  {
+    "name": "primary_color",
+    "label": "Primary Color",
+    "type": "color",
+    "default": {
+      "color": "#0f766e",
+      "opacity": 100
+    }
+  },
+  {
+    "name": "font_family",
+    "label": "Font Family",
+    "type": "font",
+    "load_external_fonts": true,
+    "default": {
+      "font": "Poppins",
+      "font_set": "GOOGLE",
+      "fallback": "sans-serif"
+    }
+  }
+]

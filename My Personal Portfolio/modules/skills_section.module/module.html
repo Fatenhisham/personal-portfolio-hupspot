@@ -1,0 +1,26 @@
+<section class="skills-section" id="skills">
+  <div class="container">
+    <h2 class="section-title">{{ module.section_title }}</h2>
+
+    <div class="skills-grid">
+      {% for item in module.skills %}
+        <div class="skill-card">
+          <div class="skill-header">
+            <span>{{ item.skill_name }}</span>
+            <span>{{ item.skill_level }}</span>
+          </div>
+
+          <div class="progress-bar">
+            <div class="progress-fill"
+              style="width:
+              {% if item.skill_level == 'Expert' %}100
+              {% elif item.skill_level == 'Advanced' %}85
+              {% elif item.skill_level == 'Intermediate' %}65
+              {% else %}40{% endif %}%">
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>

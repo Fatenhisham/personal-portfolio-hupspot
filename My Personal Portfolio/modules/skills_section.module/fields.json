@@ -1,0 +1,52 @@
+[ {
+  "id" : "83ca2c68-f732-6ccd-a6a6-201acc78556f",
+  "name" : "section_title",
+  "label" : "section_title",
+  "required" : false,
+  "locked" : false,
+  "allow_new_line" : false,
+  "type" : "text",
+  "display_width" : null,
+  "default" : "My Skills"
+}, {
+  "id" : "49c63b28-1abb-85eb-2df0-5a7780918650",
+  "name" : "skills",
+  "label" : "skills",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 1,
+    "max" : 10,
+    "sorting_label_field" : null,
+    "default" : 1
+  },
+  "children" : [ {
+    "id" : "d7434a2d-d444-2e71-203a-acb5aafb26f3",
+    "name" : "skill_name",
+    "label" : "skill_name",
+    "required" : false,
+    "locked" : false,
+    "allow_new_line" : false,
+    "type" : "text",
+    "display_width" : null
+  }, {
+    "id" : "01f76cf0-e6ab-de82-0df1-3ac2b3bc3ea4",
+    "name" : "skill_level",
+    "label" : "skill_level",
+    "required" : false,
+    "locked" : false,
+    "display" : "select",
+    "choices" : [ [ "Beginner", "Beginner" ], [ "Intermediate", "Intermediate" ], [ "Advanced", "Advanced" ], [ "Expert", "Expert" ] ],
+    "multiple" : false,
+    "reordering_enabled" : true,
+    "preset" : null,
+    "type" : "choice",
+    "display_width" : null
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "group_occurrence_meta" : null,
+  "type" : "group",
+  "display_width" : null,
+  "default" : [ { } ]
+} ]

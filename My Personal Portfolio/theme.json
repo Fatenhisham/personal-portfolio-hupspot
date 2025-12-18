@@ -1,0 +1,12 @@
+{
+  "label": "My Personal Portfolio",
+  "preview_path": "./templates/landing-page.html",
+  "screenshot_path": null,
+  "enable_domain_stylesheets": false,
+  "is_available_for_new_content": true,
+  "author": {
+    "name": "Faten Hesham",
+    "email": ""
+  },
+  "hide_all_default_modules": false
+}
